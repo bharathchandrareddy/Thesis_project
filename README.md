@@ -21,7 +21,8 @@ To Analyse the benchmark solutions i've created 17 new datasets which consists o
 - be sure to modify the arguments marked as ####To be changed#### in the ./delete_test_samples.py files.
 # Analysing benchmark solutions on In-Domain dataset
 since the model weights are provided, you can use them to analyse the model on provided test set to check its generalizability.
-- in order to evaluate the models on dataset, ./models folder contain all the code files taken from respective winning solution
+- in order to evaluate the models on dataset ./models folder contain all the code files taken from respective winning solution to use those models during evaluation
+
 
 # How to use
 # Adding Fusion augmentation to benchmark codes
