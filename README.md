@@ -15,7 +15,7 @@ The code for winning solutions are provided in:
   
 Detailed description for running those solutions are provided in thier respective repositories. Make sure to follow the same environment and requirements as their solutions.
 # Creating test set
-To Analyse the benchmark solutions i've created a dataset which consists of images from all the locations, unlike test set of competition
+To Analyse the benchmark solutions i've created 17 new datasets which consists of images from all the locations, unlike test set of competition which consists of images only from few locations
 - taken out 10% of the data from train and tier3 sets of xbd and created a seperate folder. Make sure to download these folders to get accurate results as in thesis link: https://drive.google.com/file/d/1HaoGiyhs3VooryxA9CtZ_BKc_tNVa_94/view?usp=sharing
 - Since i've used data from train and tier-3 sets of xbd for testing the model, you have to make sure to delete those images before training the model. To delete the test images from train and tier-3 set run the following file ./delete_test_samples.py
 - be sure to modify the arguments marked as ####To be changed#### in the ./delete_test_samples.py files.
