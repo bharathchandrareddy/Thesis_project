@@ -9,9 +9,9 @@ To improve the edge detection capability of the model we included a simple fusio
 This repository contains code for experiments for implementing the fusion-based augmentation and testing it on unseen locations using domain adaptation methods using the top-3 winning solutions for xView2 "xView2: Assess Building Damage" challenge.
 
 The code for winning solutions are provided in:
-  first place solution: https://github.com/DIUx-xView/xView2_first_place
-  second place solution: https://github.com/DIUx-xView/xView2_second_place
-  third place solution: https://github.com/DIUx-xView/xView2_third_place/tree/master
+  - first place solution: https://github.com/DIUx-xView/xView2_first_place
+  - second place solution: https://github.com/DIUx-xView/xView2_second_place
+  - third place solution: https://github.com/DIUx-xView/xView2_third_place/tree/master
   
 Detailed description for running those solutions are provided in thier respective repositories. Make sure to follow the same environment and requirements as their solutions.
 # Creating test set
@@ -21,6 +21,7 @@ To Analyse the benchmark solutions i've created 17 new datasets which consists o
 - be sure to modify the arguments marked as ####To be changed#### in the ./delete_test_samples.py files.
 # Analysing benchmark solutions on In-Domain dataset
 since the model weights are provided, you can use them to analyse the model on provided test set to check its generalizability.
+- in order to evaluate the models on dataset ./models folder contain all the code files taken from respective winning solution to use those models during evaluation
 
 
 # How to use
