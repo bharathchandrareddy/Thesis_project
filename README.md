@@ -14,3 +14,9 @@ The code for winning solutions are provided in:
   third place solution: https://github.com/DIUx-xView/xView2_third_place/tree/master
   
 Detailed description for running those solutions are provided in thier respective repositories. Make sure to follow the same environment and requirements as their solutions.
+
+# Adding Fusion augmentation to benchmark codes
+add the code from augmentation/transforms.py file into augmentation pipeline of the benchmark solutions
+* for first place solution add the the transforms.py code into  utils.py file
+* for second place solution add the transforms.py code into augs.py file
+* 
